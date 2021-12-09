@@ -1,0 +1,44 @@
+What is the difference between Git and Github?
+        Git is a high-quality version control system which helps to work together on a project and track a project history of ongoing program records. 
+             WHILE
+Github is a Git repository hosting service to keep track  and share your Git version control projects outside of your local computer/server.
+GitHub expands upon Git’s basic functionality.
+
+ What are the benefits of using Version Control System?
+* Efficiency
+* Identity
+* Branching and Merging
+
+ What language is used in Git?
+* C
+
+Mention the various Git repository hosting service providers (at least 4)
+* Visual Studio Team Services
+* GitHub	
+* GitLab.com	
+* ProjectLocker
+
+ What is a repository in Git?
+Repositories in Git contain a collection of files of various different versions of a Project, saves the history of all changes made to the files in a Git project
+
+How can you create a repository in Git?
+* First create a directory to contain the project and go into it.
+* Type, git init (For initialization)
+* To add the files type, git add . (If you want to add all the files)
+* Now our files have been added to the Stage Area  (Type, git status, to check)
+* To commit our files into the repository in git, type, git commit -m "First Initial"
+
+Name a few Git commands and explain their usage.
+* git status(To check the state of your files)
+* mkdir (To create the directory of a project)
+*git branch(To check what we're working on. Either main or master)
+
+What is Git?
+Git is an open source, free and scalable to keep our programs.
+
+What is a .git Directory?
+.git Directory is a folder contains all information required for version control.
+
+What happens if the .git directory gets deleted?
+​The repository will no longer be under version control, which will cause the project’s history be lost and wouldn't be tracked.
+
